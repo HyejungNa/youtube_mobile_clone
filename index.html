@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">  <link rel="stylesheet" href="style.css">
+  <title>Youtube Mobile</title>
+  <script 
+    src="https://kit.fontawesome.com/4365acded3.js" 
+    crossorigin="anonymous">
+  </script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <i class="fa-brands fa-youtube"></i>
+      <span class="title">Youtube</span>
+    </div>
+    <div class="icons">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      <i class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+  </header>
+  
+  <secion class="player">
+    <video controls src="video/video.mp4"></video>
+  </secion>
+
+  <div class="infoAndUpnext">
+    <secion class="info">
+      <div class="metadata">
+        <ul class="hashtags">
+            <li>#CloneCoding</li>
+            <li>#DreamCoders</li>
+            <li>#Youtube</li>
+        </ul>  
+  
+        <div class="titleAndButton">
+          <span class="title clamp">
+            Clone Coding: Youtube Mobile Website | HTML+CSS Practice, Web Portfolio | Front-End Developer Introductory Edition: HTML, CSS, Javascript
+          </span>
+          <button class="moreBtn">
+            <i class="fa-solid fa-caret-down"></i>
+          </button>
+        </div>
+        <span class="views">1M views 1 month ago</span>
+      </div>  
+        
+      <ul class="actions">
+        <li>
+          <button>
+            <i class="active fa-solid fa-thumbs-up"></i><span>1K</span>
+          </button>
+        </li>
+        <li>
+          <button><i class="fa-solid fa-thumbs-down"></i><span>0</span></button>
+        </li>
+        <li>
+          <button><i class="fa-solid fa-share"></i><span>Share</span></button>
+        </li>
+        <li>
+          <button><i class="fa-solid fa-plus"></i><span>Save</span></button>
+        </li>
+        <li>
+          <button><i class="fa-solid fa-flag"></i><span>Report</span></button>
+        </li> 
+      </ul>
+  
+      <div class="channel">
+        <div class="metadata">
+            <img src="image/avatar.png" alt="profilPic">
+            <div class="info">
+              <span class="name"> Coding by Alice</span>
+              <span class="subscribers">1M subscribers</span>
+            </div>
+        </div> 
+        <button class="subscribe">SUBSCRIBE</button>  
+      </div>    
+    </secion>
+  
+    <secion class="upNext">
+      <span class="title">Up next</span>
+      <ul>
+        <li class="item">
+          <div class="img"><img src="image/image1.jpg" alt="">
+          </div>
+          <div class="info">
+            <span class="title"> Front-end developer | Introduction to web development</span>
+            <span class="name">Coding by Alice</span>
+            <span class="views">82K views</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </li>
+  
+        <li class="item">
+          <div class="img"><img src="image/image2.jpg" alt="">
+          </div>
+          <div class="info">
+            <span class="title">HTML basics | Introduction to web development </span>
+            <span class="name">Coding by Alice</span>
+            <span class="views">80K views</span>
+          </div>  
+          <button class="moreBtn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </li>
+  
+        <li class="item">
+          <div class="img"><img src="image/image3.jpg" alt="">
+          </div>
+          <div class="info">
+            <span class="title">Web portfolio | Introduction to web development</span>
+            <span class="name">Coding by Alice</span>
+            <span class="views">75K views</span>
+          </div>
+          <button class="moreBtn">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </li>
+      </ul>
+    </secion>
+  </div>
+</body>
+</html>
